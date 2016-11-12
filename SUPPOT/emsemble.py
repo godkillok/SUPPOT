@@ -123,7 +123,7 @@ for  i in range(len(ID_preds)):
         else:
             if (ID_preds[i] == 3):
                 ID_preds[i] = 2000
-print "Ô¤²â½á¹û %s" % len(ID_preds)
+print "the final result %s" % len(ID_preds)
 res = {}
 for i in ID_preds:
     res[i] = res.get(i, 0) + 1
